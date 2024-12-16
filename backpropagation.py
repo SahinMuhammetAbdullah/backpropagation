@@ -36,7 +36,7 @@ def sigmoid(z):
 def sigmoid_derivative(a):
     return a*(1-a)
 
-learning_rate = 0.9 # Öğrenme katsayısı. Testler sonucu optimum değer "0.27"
+learning_rate = 0.27 # Öğrenme katsayısı. Testler sonucu optimum değer "0.27"
 epochs = 200000 # İtetasyon sayısı. Testler sonucu optimum değer "200000"
 lambda_reg = 0.0001  # Düzenlileştirme parametresi. Testler sonucu optimum değer "0.0001"
 
